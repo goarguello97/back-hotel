@@ -14,3 +14,5 @@ app.listen(PORT, () => {
   conectionDB();
   console.log(`Server escuchando en puerto ${PORT}`);
 });
+
+export default app;
