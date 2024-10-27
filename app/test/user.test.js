@@ -15,7 +15,7 @@ afterAll(async () => {
   await User.deleteMany({});
 });
 
-xdescribe("GET /users", () => {
+describe("GET /users", () => {
   let id = "";
   let name = "";
   let email = "";

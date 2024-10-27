@@ -15,7 +15,7 @@ app.use("/api", router);
 
 app.listen(PORT, () => {
   conectionDB();
-  console.log(`Server escuchando en puerto ${PORT}`);
+  console.log(`Server listen in port ${PORT}`);
 });
 
 export { app };
