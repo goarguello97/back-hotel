@@ -61,7 +61,7 @@ describe("GET /users", () => {
   });
 });
 
-xdescribe("POST /users", () => {
+describe("POST /users", () => {
   beforeAll(async () => {
     await User.deleteMany({});
   });
@@ -124,7 +124,7 @@ xdescribe("POST /users", () => {
   });
 });
 
-xdescribe("PUT /users", () => {
+describe("PUT /users", () => {
   let id = "";
   let randomId = "507f1f77bcf86cd799439011";
   let name = "";
@@ -175,7 +175,7 @@ xdescribe("PUT /users", () => {
   });
 });
 
-xdescribe("DELETE /users", () => {
+describe("DELETE /users", () => {
   let id = "";
   let unknowId = "507f1f77bcf86cd799439011";
   let name = "";

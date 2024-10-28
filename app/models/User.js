@@ -1,10 +1,8 @@
 import bcrypt from "bcrypt";
 import { Schema, model } from "mongoose";
-import { v4 as uuidv4 } from "uuid";
 
 const UserModel = new Schema(
   {
-    _id: { type: String, default: uuidv4 },
     name: {
       type: String,
       trim: true,
